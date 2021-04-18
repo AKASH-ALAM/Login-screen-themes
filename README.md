@@ -3,7 +3,7 @@ Tested on Ubuntu 20.04
 
 
 
-##INSTALLATION
+## INSTALLATION
 First, you will need to install libglib2.0-dev-bin with 
 
      sudo apt install libglib2.0-dev-bin
@@ -16,7 +16,7 @@ And set it as an executable with
 
     chmod +x change-gdm-background
 
-##USAGE
+## USAGE
 Run the script with root privileges such as sudo ./change-gdm-background /path/image.(clr+l for copy image directory)
 such as : 
           
@@ -28,7 +28,7 @@ You can restore your original gdm theme any time with
     
     sudo ./change-gdm-background --restore.
 
-##CHANGE COLOR
+## CHANGE COLOR
 Now you can change that annoying purple color to any color you like. Just type 
 
     sudo ./change-gdm-background \#yourhexcode and voilá, you changed it. 
